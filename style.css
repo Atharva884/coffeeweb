@@ -60,7 +60,7 @@ header.header a.logo i{
 }
 header.header nav.navbar a{
     color: var(--main-color);
-    margin-right: 1rem;
+    margin: 0rem 1rem;
     font-size: 1.7rem;
 }
 .btn{
@@ -248,7 +248,7 @@ section.menu{
 }
 .box-container .box img{
     height: 7rem;
-    margin-left: -16rem;
+    margin-left: -9rem;
 }
 .box-container .box .box-txt h2{
     font-size: 2rem;
@@ -484,7 +484,10 @@ input::-webkit-inner-spin-button {
 
 @media(max-width: 450px){
     html{
-        font-size: 55%;
+        font-size: 50%;
+    }
+    .btn{
+        padding: .7rem 1.5rem;
     }
     header.header{
         padding: .5rem 3rem;
