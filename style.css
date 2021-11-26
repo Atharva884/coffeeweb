@@ -431,7 +431,7 @@ input::-webkit-inner-spin-button {
         display: block;
     }
     header.header{
-        padding: 1rem 7rem;
+        padding: 2rem;
     }
     header.header .navbar{
         position: absolute;
